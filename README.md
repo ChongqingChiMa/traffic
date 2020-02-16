@@ -69,4 +69,4 @@
 
 
 ###功能截图：
-![add image](https://github.com/ChongqingChiMa/traffic/blob/master/1.bmp)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/1.png)

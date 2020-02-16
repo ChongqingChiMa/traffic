@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="4.2" transformSequenceNumber="1">
+  <directoryPresets config="D:/StationClient" />
+  <application name="DriverClient" distributionSourceDir="D:/StationClient">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="DriverClient" type="1" iconSet="true" iconFile="D:/StationClient/images/login/driver.ico" executableDir="." redirectStderr="true" stderrFile="error.log" redirectStdout="false" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="false" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false" amd64="false">
+    <messageSet />
+    <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" companyName="" productVersion="" />
+  </executable>
+  <splashScreen show="false" autoOff="true" alwaysOnTop="true" width="0" height="0" bitmapFile="" java6SplashScreen="false">
+    <text>
+      <statusLine x="20" y="20" text="" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+      <versionLine x="20" y="40" text="version %VERSION%" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="com.zhima.driver.ui.LoginUi" vmParameters="-Xmx512m" arguments="-Xmx256m" allowVMPassthroughParameters="true" preferredVM="client" minVersion="1.5" maxVersion="1.6" allowBetaVM="false" jdkOnly="false">
+    <searchSequence>
+      <directory location="./jre8" />
+    </searchSequence>
+    <classPath>
+      <archive location="./DriverClient.jar" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories>
+      <directory name="./lib" />
+    </nativeLibraryDirectories>
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
+

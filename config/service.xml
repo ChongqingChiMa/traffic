@@ -1,0 +1,44 @@
+<service-config> 
+  <service> 
+  	<user-properties> 
+      <property name="user" value="root"/>  
+      <property name="password" value="123456"/> 
+    </user-properties>
+    <services>
+    	<platform-properties>
+    	      <property name="namespace" value="http://traffic.platform.service.com"/>  
+      		  <property name="address" value="http://121.36.252.175:8081/TrafficServer/services/RequestServer?wsdl"/> 
+    	</platform-properties>
+    	<sam-properties>
+    	      <property name="namespace" value="http://traffic.sam.service.com"/>  
+      		  <property name="address" value="http://121.36.252.175:8081/TrafficServer/services/SamService?wsdl"/> 
+    	</sam-properties>
+    	<epd-properties>
+    	      <property name="namespace" value="http://traffic.epd.service.com"/>  
+      		  <property name="address" value="http://121.36.252.175:8081/TrafficServer/services/EpdService?wsdl"/> 
+    	</epd-properties>
+    	<its-properties>
+    	      <property name="namespace" value="http://traffic.its.service.com"/>  
+      		  <property name="address" value="http://121.36.252.175:8081/TrafficServer/services/ItsService?wsdl"/> 
+    	</its-properties>
+    	<ins-properties>
+    	      <property name="namespace" value="http://traffic.ins.service.com"/>  
+      		  <property name="address" value="http://121.36.252.175:8081/TrafficServer/services/InsService?wsdl"/> 
+    	</ins-properties>
+    	<vms-properties>
+    	      <property name="namespace" value="http://traffic.vms.service.com"/>  
+      		  <property name="address" value="http://121.36.252.175:8081/TrafficServer/services/VmsService?wsdl"/> 
+    	</vms-properties>
+    	<safe-properties>
+    	      <property name="namespace" value="http://traffic.safe.service.com"/>  
+      		  <property name="address" value="http://121.36.252.175:8081/TrafficServer/services/SafeService?wsdl"/> 
+    	</safe-properties>
+    	<net-properties>
+    	      <property name="namespace" value="http://traffic.net.service.com"/>  
+      		  <property name="address" value="http://121.36.252.175:8081/TrafficServer/services/NetService?wsdl"/> 
+    	</net-properties>
+    </services>
+    <timeout>60000</timeout>
+    <telnet-conn>false</telnet-conn>
+  </service> 
+</service-config>

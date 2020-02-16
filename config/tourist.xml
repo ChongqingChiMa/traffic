@@ -1,0 +1,90 @@
+
+<system-config> 
+  <version>20160322122323</version>  
+  <key>605TG-KO9GS-R72AV-FY6VC-MOBHT</key>  
+  <device_code>5206</device_code>  
+  <tourist_name>中国·重庆·丰都旅游度假区</tourist_name>  
+  <led_text>自助售票机</led_text>  
+  <usercode>admin</usercode>  
+  <password>0000</password>  
+  <countdown>30</countdown>  
+  <service_call>18502315229</service_call>  
+  <database> 
+    <driver_class>com.mysql.jdbc.Driver</driver_class>  
+    <conn_url>jdbc:mysql://47.95.118.171:3306/tgo_pay</conn_url>  
+    <conn_user>root</conn_user>  
+    <conn_pass>traffic#2018</conn_pass> 
+  </database>  
+  <payment> 
+    <api_url>http://47.95.118.171:8081/tgo-pay-web</api_url>  
+    <origin_wechat>1000</origin_wechat>  
+    <origin_alipay/>  
+    <channel_wechat>2000</channel_wechat>  
+    <channel_alipay/> 
+  </payment>  
+  <bills> 
+    <count_bill>2938</count_bill>  
+    <start_code>5012000001</start_code>  
+    <limit_code>5012003000</limit_code>  
+    <apply_code>5012000063</apply_code> 
+  </bills>  
+  <modules> 
+    <ticket-properties> 
+      <property name="module_name" value="自助售票"/>  
+      <property name="module_type" value="tourist"/>  
+      <property name="address" value="com.zhima.tourist.ui.TicketUi"/>  
+      <property name="status" value="1"/>  
+      <property name="module_icon" value="images/tourist/sale.png"/>  
+      <property name="module_desc" value="旅客自助购买景区门票"/> 
+    </ticket-properties>  
+    <manage-properties> 
+      <property name="module_name" value="系统管理"/>  
+      <property name="module_type" value="system"/>  
+      <property name="address" value="com.zhima.tourist.ui.ManageUi"/>  
+      <property name="status" value="1"/>  
+      <property name="module_icon" value="images/tourist/config.png"/>  
+      <property name="module_desc" value=""/> 
+    </manage-properties> 
+  </modules>  
+  <printer> 
+    <paper-properties> 
+      <property name="width" value="226"/>  
+      <property name="height" value="454"/> 
+    </paper-properties>  
+    <items> 
+      <ticketcode-properties> 
+        <property name="left" value="250"/>  
+        <property name="top" value="70"/>  
+        <property name="fontname" value="宋体"/>  
+        <property name="fontsize" value="12"/>  
+        <property name="fontbold" value="1"/> 
+      </ticketcode-properties>  
+      <barcode-properties> 
+        <property name="left" value="370"/>  
+        <property name="top" value="70"/>  
+        <property name="width" value="80"/>  
+        <property name="height" value="80"/> 
+      </barcode-properties>  
+      <qrcode-properties> 
+        <property name="left" value="350"/>  
+        <property name="top" value="130"/>  
+        <property name="width" value="80"/>  
+        <property name="height" value="80"/> 
+      </qrcode-properties>  
+      <ticketname-properties> 
+        <property name="left" value="160"/>  
+        <property name="top" value="80"/>  
+        <property name="fontname" value="宋体"/>  
+        <property name="fontsize" value="12"/>  
+        <property name="fontbold" value="1"/> 
+      </ticketname-properties>  
+      <ticketpirce-properties> 
+        <property name="left" value="290"/>  
+        <property name="top" value="80"/>  
+        <property name="fontname" value="宋体"/>  
+        <property name="fontsize" value="12"/>  
+        <property name="fontbold" value="1"/> 
+      </ticketpirce-properties> 
+    </items> 
+  </printer> 
+</system-config>

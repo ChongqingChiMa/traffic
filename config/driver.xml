@@ -1,0 +1,56 @@
+
+<system-config> 
+  <version>20160322122323</version>  
+  <key>AVLJ8-NE2LJ-728RS-3TO0H-S3EHT</key>  
+  <device_code>5206</device_code>  
+  <station_name>四公里汽车站</station_name>  
+  <led_text>驾驶员自助机</led_text>  
+  <address>http://127.0.0.1:8080/tgo-pay-web/api</address>  
+  <usercode>admin</usercode>  
+  <password>0000</password>  
+  <countdown>30</countdown>  
+  <countbill>3000</countbill>  
+  <service_call>18502315229</service_call>  
+  <modules> 
+    <report-properties> 
+      <property name="module_name" value="班次报班"/>  
+      <property name="module_type" value="driver"/>  
+      <property name="address" value="com.zhima.driver.ui.ReportUi"/>  
+      <property name="status" value="1"/>  
+      <property name="module_icon" value="images/driver/report.png"/>  
+      <property name="module_desc" value="驾驶员自助车辆、驾驶员资质认证报班"/> 
+    </report-properties>  
+    <query-properties> 
+      <property name="module_name" value="班次查询"/>  
+      <property name="module_type" value="driver"/>  
+      <property name="address" value="com.zhima.driver.ui.QueryUi"/>  
+      <property name="status" value="1"/>  
+      <property name="module_icon" value="images/driver/query.png"/>  
+      <property name="module_desc" value="驾驶员自助查询班次详情"/> 
+    </query-properties>  
+    <ticket-properties> 
+      <property name="module_name" value="班次检票"/>  
+      <property name="module_type" value="driver"/>  
+      <property name="address" value="com.zhima.driver.ui.ScanningUi"/>  
+      <property name="status" value="1"/>  
+      <property name="module_icon" value="images/driver/ticket.png"/>  
+      <property name="module_desc" value="驾驶员自助扫描票据检票"/> 
+    </ticket-properties>  
+    <print-properties> 
+      <property name="module_name" value="班次打单"/>  
+      <property name="module_type" value="driver"/>  
+      <property name="address" value="com.zhima.driver.ui.PrintUi"/>  
+      <property name="status" value="1"/>  
+      <property name="module_icon" value="images/driver/print.png"/>  
+      <property name="module_desc" value="驾驶员自助打印结算单凭证"/> 
+    </print-properties>  
+    <manage-properties> 
+      <property name="module_name" value="系统管理"/>  
+      <property name="module_type" value="system"/>  
+      <property name="address" value="com.zhima.driver.ui.ManageUi"/>  
+      <property name="status" value="1"/>  
+      <property name="module_icon" value="images/driver/config.png"/>  
+      <property name="module_desc" value=""/> 
+    </manage-properties> 
+  </modules> 
+</system-config>

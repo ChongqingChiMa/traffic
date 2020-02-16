@@ -1,0 +1,21 @@
+导出pdf中文数据不能正常显示
+1、首先，在用iReport设计报表时将要显示中文数据的地方的属性设置如下：
+Font name: 宋体(中文字体) 
+PDF font name:   STSong-Light  
+PDF Encoding: UniGB-UCS2-H(Chinese Siplified) 
+PDF Embeded: √
+2、iTextAsian.jar 
+这个包导入项目的classpath中，没有这个包的话，导出含有中文数据的PDF
+会报以下错误：
+net.sf.jasperreports.engine.JRRuntimeException: Could not load 
+the following font :
+pdfFontName: STSong-Light  
+pdfEncoding: UniGB-UCS2-H(Chinese Siplified)
+isPdfEmbedded: true
+iTextAsian.jar包的下载地址为：
+http://sourceforge.net/projects/itext/files/extrajars/
+ExtraJars1.0/iTextAsian.jar/download
+这种方法虽然能够正常地显示中文信息，但是有一个缺点，就是只有一种字体。
+因为iText官方网站提供的iTextAsian.jar包中只包含几种简单的亚洲字体，
+对于简体中文来说，只有宋体。因此，采用这种方法生成的PDF 中，中文字体
+只能为宋体，无法显示其他字体。但这种方法比较简单

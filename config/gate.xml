@@ -1,0 +1,60 @@
+
+<system-config>
+	<!-- 设备编号 -->
+	<device_code>1001</device_code>
+	<!-- 设备类型(1=普通闸机；2=人脸识别闸机) -->
+	<device_type>1</device_type>
+	<!-- 注册码 -->
+	<key>AVLJ8-NE2LJ-728RS-3TO0H-S3EHT</key>
+	<!-- 车站名称 -->
+	<station_name>茶园汽车站</station_name>
+	<!-- 系统版本号 -->
+	<version>20160322122323</version>
+	<!-- 服务电话 -->
+	<service_call>技术支持：18502315229</service_call>
+	<!-- 检票口 -->
+	<check_id>1</check_id>
+	<!-- 检票模式 -->
+	<check_mode>1</check_mode>
+	<!-- 服务设置 -->
+	<service>
+		<!-- 请求密匙 -->
+		<secret_key>26973</secret_key>
+		<!-- 命名空间 -->
+		<name_space>http://webservice.netSale.com</name_space>
+		<!-- 接口地址 -->
+		<server_url>http://127.0.0.1:8080/axis2/services/SafeManageService?wsdl</server_url>
+	</service>
+	<!-- 扫描平台设置 -->
+	<scanning>
+		<!-- 串口名称 -->
+		<port_name>COM1</port_name>
+		<!-- 波特率 -->
+		<baudrate>115200</baudrate>
+	</scanning>
+	<!-- 单片机设置 -->
+	<singlechip>
+		<!-- 串口名称 -->
+		<port_name>COM2</port_name>
+		<!-- 波特率 -->
+		<baudrate>9600</baudrate>
+	</singlechip>
+	<!-- 管理设置 -->
+	<manage>
+		<!-- 通行卡号 -->
+		<manage_code>66666666</manage_code>
+		<!-- 暂停/恢复 -->
+		<pause_code>00000000</pause_code>
+	</manage>
+	<!-- 摄像机 -->  
+	<camera>
+		<!-- 安装目录 -->
+		<dll_path>C:\\Program Files (x86)\\AuthenMetric\\LivingBody\\bin</dll_path>
+		<!-- 身份证照片目录 -->
+		<photo_path>D:\\photo.bmp</photo_path>
+		<!-- 活体照片目录 -->
+		<snap_path>D:\\snap.bmp</snap_path>
+		<!-- 比对阀值 -->
+		<threshold>0.6</threshold>
+	</camera> 
+</system-config>

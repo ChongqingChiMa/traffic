@@ -1,0 +1,47 @@
+
+<system-config> 
+  <version>3.1.2</version>  
+  <key>GSRTN-EXS2S-2P0XE-O8RSX-UXU1G</key>  
+  <connectmode>2</connectmode>  
+  <clienttype>1</clienttype>  
+  <login> 
+    <upgrade>true</upgrade>  
+    <backpass>true</backpass>  
+    <organize>EC19DB34E4830EC6</organize>  
+    <usercode>91F03A78DEAC3B52</usercode>  
+    <password>C7A50CE15186B80A</password>  
+    <autologin>false</autologin> 
+  </login>  
+  <style> 
+    <font> 
+      <sysfont> 
+        <name>宋体</name>  
+        <size>10</size>  
+        <bold>false</bold> 
+      </sysfont>  
+      <folderfont> 
+        <name>宋体</name>  
+        <size>10</size>  
+        <bold>false</bold> 
+      </folderfont>  
+      <btnfont> 
+        <name>宋体</name>  
+        <size>10</size>  
+        <bold>false</bold> 
+      </btnfont>  
+      <gridfont> 
+        <name>宋体</name>  
+        <size>10</size>  
+        <bold>false</bold> 
+      </gridfont> 
+    </font>  
+    <image> 
+      <toolbarshow>true</toolbarshow>  
+      <foldershowimage>true</foldershowimage>  
+      <btnshowimage>true</btnshowimage> 
+    </image>  
+    <dialogbar> 
+      <alignment>64</alignment> 
+    </dialogbar> 
+  </style> 
+</system-config>

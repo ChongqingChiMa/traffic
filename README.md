@@ -8,7 +8,7 @@
 	(3)、连接池：proxool 0.9.1；
 	(4)、消息队列：ActiveMQ；
 	(5)、接口：Axis2(1.7.9)；
-	(6)、部署：≥Tomcat8、Jboss等；
+	(6)、接口部署：≥Tomcat8、Jboss等；
 	
 ###系统特色：
 

@@ -70,14 +70,14 @@
 
 ###功能截图：
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/1.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/picture/1.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/2.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/picture/2.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/3.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/picture/3.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/4.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/picture/4.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/5.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/picture/5.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/6.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/picture/6.png)

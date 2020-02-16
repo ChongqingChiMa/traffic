@@ -71,3 +71,13 @@
 ###功能截图：
 
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/1.png)
+
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/2.png)
+
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/3.png)
+
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/4.png)
+
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/5.png)
+
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/6.png)

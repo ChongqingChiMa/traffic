@@ -66,3 +66,7 @@
 	(4)推存使用分辩率：1366×768；
 	(5)服务端部署在运服务器中，服务器为最低配置运行体验要差一些；
 	(5)联系邮箱：994556036@qq.com；
+
+
+###功能截图：
+![add image](https://github.com/ChongqingChiMa/traffic/blob/master/1.bmp)

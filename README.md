@@ -49,32 +49,33 @@
 	
 ###体验方式：
 
-	(1)下载道路交通站务管理系统到本电脑；
-	(2)将下载的文件解压后运行解压文件中StationClient.exe执行文件；
-	(3)系统体验帐号：admin，密码：0000；
-	(4)推存使用分辩率：1366×768；
-	(5)服务端部署在云服务器，服务器为最低配置运行体验要差一些；
-	(5)联系邮箱：994556036@qq.com；
+	(1)、下载道路交通站务管理系统到本电脑；
+	(2)、将下载的文件解压后运行解压文件中StationClient.exe执行文件；
+	(3)、系统体验帐号：admin，密码：0000；
+	(4)、推存使用分辩率：1366×768；
+	(5)、服务端部署在云服务器，服务器为最低配置运行体验要差一些；
+	(6)、联系邮箱：994556036@qq.com；
 
 
 ###功能截图：
+	(1)、登录
 
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/登录.png)
-
+	(2)、个性化
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/个性化.png)
-
+	(3)、主界面
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/主界页.png)
-
+	(4)、操作日志
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/操作日志.png)
-
+	(5)、打印设置
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/打印设置.png)
-
+	(6)、席位布置
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/席位布置.png)
-
+	(7)、车辆例检
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/车辆例检.png)
-
+	(8)、调度
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/调度.png)
-
+	(9)、销售
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/销售.png)
-
+	(10)、语音播报
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/语音播报.png)

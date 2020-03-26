@@ -59,14 +59,22 @@
 
 ###功能截图：
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/1.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/登录.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/2.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/个性化.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/3.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/主界页.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/4.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/操作日志.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/5.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/打印设置.png)
 
-![image](https://github.com/ChongqingChiMa/traffic/blob/master/6.png)
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/席位布置.png)
+
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/车辆例检.png)
+
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/调度.png)
+
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/销售.png)
+
+![image](https://github.com/ChongqingChiMa/traffic/blob/master/语音播报.png)

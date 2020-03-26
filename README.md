@@ -60,9 +60,11 @@
 ###功能截图：
 
 (1)、登录
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/登录.png)
 
 (2)、个性化
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/个性化.png)
 
 (3)、主界面

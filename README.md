@@ -59,34 +59,42 @@
 
 ###功能截图：
 
-(1)、登录
+登录
 
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/登录.png)
 
-(2)、个性化
+个性化
 
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/个性化.png)
 
-(3)、主界面
+主界面
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/主界页.png)
 
-(4)、操作日志
+操作日志
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/操作日志.png)
 
-(5)、打印设置
+打印设置
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/打印设置.png)
 
-(6)、席位布置
+席位布置
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/席位布置.png)
 
-(7)、车辆例检
+车辆例检
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/车辆例检.png)
 
-(8)、调度
+调度
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/调度.png)
 
-(9)、销售
+销售
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/销售.png)
 
-(10)、语音播报
+语音播报
+
 ![image](https://github.com/ChongqingChiMa/traffic/blob/master/语音播报.png)
